@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.intro {
+  flex: 2;
+}
+
+.profile-picture {
+  flex: 1;
+}
+
+.profile-picture img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+h1, h2, h3 {
+  margin: 10px 0;
+}
+
+main {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills span {
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #f4f4f4;
+  border-top: 1px solid #ccc;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+footer a {
+  color: #000;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
