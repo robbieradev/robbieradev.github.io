@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
 
@@ -93,7 +94,7 @@
                 alt="Experience icon"
                 class="icon"
               />
-              <h1>Experience</h1>
+              <h3>Experience</h3>
               <p>1 year <br />Full Stack Web Development</p>
             </div>
             <div class="details-container">
@@ -327,7 +328,31 @@
         </div>
       </div>
     </section>
+    <section id="game">
+      <p class="section__text__p1">Want to play a game?</p>
+      <h1 class="title">Rock, Paper, Scissors, Go!</h1>
+      <div class="game-upper-container">
+        <div class="game-container">
+          <div class="game-pic-container">
+            <img
+              src="./assets/rock-paper-scissors.png"
+              alt="Rock, Paper, Scissors"
+              class="game-pic"
+            />
+          </div>
+          <div class="game-btn-container">
+            <button class="btn btn-color-2" onclick="startGame()">
+              Start Game
+            </button>
+          </div>
+        </div>
+        <p id="result"></p>
+      </div>
+    </section>
     <footer>
+      <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <img src="./assets/up-arrow.png" alt="Back to Top" />
+      </button>
       <nav>
         <div class="nav-links-container">
           <ul class="nav-links">
