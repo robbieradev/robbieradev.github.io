@@ -346,11 +346,11 @@
 
   .article-container {
     display: flex;
-    text-align: initial;
+    align-items: center;
     flex-wrap: wrap;
     flex-direction: row;
     gap: 2rem;
-    justify-content: space-around ;
+    justify-content: center;
   }
 
   article {
