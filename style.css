@@ -124,26 +124,32 @@
 
   .hamburger-icon.open span:first-child {
     transform: rotate(45deg) translate(10px, 5px);
+    transition:all 0.3s ease-in-out;
   }
 
   .hamburger-icon.open span:nth-child(2) {
     opacity: 0;
+    transition:all 0.3s ease-in-out;
   }
 
   .hamburger-icon.open span:last-child {
     transform: rotate(-45deg) translate(10px, -5px);
+    transition:all 0.3s ease-in-out;
   }
 
   .hamburger-icon span:first-child {
     transform: none;
+    transition:all 0.3s ease-in-out;
   }
 
-  .hamburger-icon span:first-child {
+  .hamburger-icon span:nth-child(2) {
     opacity: 1;
+    transition:all 0.3s ease-in-out;
   }
 
-  .hamburger-icon span:first-child {
+  .hamburger-icon span:last-child {
     transform: none;
+    transition:all 0.3s ease-in-out;
   }
 
   /* SECTIONS */
