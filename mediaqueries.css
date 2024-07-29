@@ -94,4 +94,9 @@
   .text-container {
     text-align: justify;
   }
+
+  /* Additional media query for the game section */
+  .game-btn-container {
+    flex-direction: column; /* Stack buttons vertically on small screens */
+  }
 }
